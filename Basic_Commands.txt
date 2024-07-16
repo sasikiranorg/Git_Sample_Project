@@ -1,0 +1,77 @@
+#------------------------------------------- GIT Basic Commands ------------------------------------------------#
+
+#------------------------- 12 | July | 2024 | ------------------#
+
+1. sudo apt update = It is used to update the Command Prompt.
+
+2. sudo apt install git = It is used to install git in the command prompt 
+			  ( -y : If we give hyphen y it wont ask yes/no. It will consider yes )
+
+3. git init = It will initiate the path.
+
+4. git status = It will show the status.
+
+5. git add (--all . * ): By using this we can add all the files from untracked to tracked files.
+
+6. git config user.name "Username" = It will config the user name.
+   git config user.email "user@gmail.com " = It will config the user email. 
+   git config --list   = It will displays the configured list.
+
+7. git commit -m"What type of message we need to give the Commited user" = It will commit the files untracked to tracked files.
+
+8. git log = It will displays the logs of the git.
+   git log --stat = It will displays the 
+			1. Unique ID
+			2. Author Name
+			3. Date
+			4. Message
+			5. File changes +insertion -deletion
+   git log -4 : It will displays the top 4 lines log
+
+9. git show [ Copy Unique ID and paste some characters] = It will shows what are the changes we did in previous.
+
+10. git clone url = It will get the data from the remote repository to the local system.
+
+11. git pull = It will get the updated date from the remote repository into the local repository.
+
+12. git push = It will opposite to the git pull ( local repository to the remote repository )
+
+#--------------------------------------------------- Upto Now -------------------------------------------------#
+
+
+#------------------------- 16 | July | 2024 | ------------------#
+
+13. git restore filename  = If we need to undo added files in unstaging area we need to use this command.
+
+14. git restore --staged filename  = It is used to bring back to the staging area to the working area.
+
+15. git log --oneline = It will show the single line message.
+
+16. git log -2 --oneline = It will dispalys top 2 lines and single line messages.
+
+17. git log -2 --stat = (stat) It will displays how many insertions and deletions were happens in this.
+
+18. git log --since="07/07/2024" = It will displays the logs from the given date to upto now.
+
+19. git log --until="07/07/2024" = It will displays the logs from the given date.
+
+20. git log --since="insert date" --until="insert date" = It will displays since to until logs.
+
+21. git log --author="Sasikiran"  = It will displays what are the commits did sasikiran.
+
+22. git log --grep="Give some text needed related to that"  = It will displays the related content into the commits.
+
+23. git log -3 -p = It will shows the stats inserted and deleted content by using '-p'.
+
+24. git log --pretty="%h %cn" = It will displays 
+				%h = short commit ID
+				%cn = commited name
+
+25. git log --pretty="%Hash ID-%h; Author- %an; email- %ae;" -5  = It will displays 
+								%H = long commit ID
+								%an = Author Name 
+								%ae = Author email
+
+
+
+#----------------------------------------------------------------- END ---------------------------------------------------------# 
