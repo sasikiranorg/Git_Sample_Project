@@ -75,3 +75,57 @@
 
 
 #----------------------------------------------------------------- END ---------------------------------------------------------# 
+
+#----------------------------------------------------- 17 | July | 2024 | -------------------------------------------------------#
+
+26. HEAD = It is latest commit (top). Head will shows the latest commit.
+
+27. git checkout commitID  = After executing this command the latest commit HEAD goes to previous.
+
+28. git checkout -  = If we want to undo the checkout.
+
+29. git remote -v = It will shows the url of the remote repository.
+
+30. git remote remove origin = It will remove the origin path.
+
+31. git remote add origin url = It will add origin.
+
+32. git pull remote url branch = It is used to pull the content from the local repo to remote repo.
+
+		Origin = Remote Repository URL
+		HEAD = Latest Commit
+		main = Branch Name
+		
+33. git reset = It is used to reset the process. It has 3 types.
+						1. git reset --soft commitID (By using this it will goes from indexed area to staging area).
+						2. git reset --hard commitID (By using this it will goes to previous commit).
+						3. git reset --mixed commitID (By using this it will reset normal).
+							or
+						   git reset commitID (Same as Mixed)
+
+34. git revert = undoing changes to a repository commit history.
+
+#----------------------------------------------------------------- END ---------------------------------------------------------#
+
+#----------------------------------------------------- 18 | July | 2024 | -------------------------------------------------------#
+
+35. Branch = It is a seperate branch of code.
+
+36. Trunk = It is a default main branch.
+
+37. git branch = this command will shows the list available in local.
+
+38. git branch -r = It is shown default branch and origin.
+
+39. git switch branchname = It will switch from one to another branch.
+
+40. git branch branchname = it is used to create a new branch.
+
+41. git switch -c branchname = In this command at a time we can create and switch to the branch.
+
+42. git checkout -b branchname = In this command also create a branch and checkout to this new branch.
+
+43. git switch branchname  == git checkout branchname = Both are similar it is use to create branches.
+
+
+#----------------------------------------------------------------- END ----------------------------------------------------------#
