@@ -129,3 +129,16 @@
 
 
 #----------------------------------------------------------------- END ----------------------------------------------------------#
+
+
+#----------------------------------------------------- 15th July | By using token_push  | -------------------------------------------------------#
+
+
+git remote add name url = We need to give this name and paste the repo url.
+
+git push name = In previous command what the name will gives we need to give same as here.
+
+			It will asks the login credentials give username and password is paste the token key....
+
+
+#----------------------------------------------------------------- END ----------------------------------------------------------#
